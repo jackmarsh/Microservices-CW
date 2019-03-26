@@ -1,6 +1,7 @@
 # Microservices-CW
-A microservices Node.js approach to a ride-sharing taxi app for coursework
+The backend of a microservices Node.js approach to a ride-sharing taxi app completed for coursework.
 
+## Description of each microservice
 
 Driver
 * The Driver service is an entry point for the drivers of Alleys app to interact with the other services.
@@ -37,6 +38,7 @@ Roster MongoDB
 * The Roster MongoDB service is a container that holds the roster database.
 * Drivers are stored in here after joining with their username and rate.
 
+## Curl Commands to interact with back end
 
 Driver – Register
 ```
